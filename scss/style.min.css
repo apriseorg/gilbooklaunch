@@ -790,9 +790,9 @@ h1{
 
 .book {
   position: relative;
-  height:700px;
+  height:650px;
 }
 
 .buynow {
-	margin-top: 40px;
+	margin-top: 0px;
 }
