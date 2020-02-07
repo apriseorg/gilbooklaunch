@@ -795,4 +795,97 @@ h1{
 
 .buynow {
 	margin-top: 0px;
+    position:  absolute;
+    top:  530px;
+    right:  0px;
+    z-index:  99;
+    display:  none;
+}
+/* formwrap */
+.formwrap{
+    position: relative;
+    margin-top: 80px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+}
+.emaillabel {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.emaillabel input{
+    display: block;
+    border: 0;
+    width: 100%;
+    background: #ffffff;
+    height: 60px;
+    padding-left: 45px;
+    font-size: 16px;
+    padding-right: 200px;
+}
+.emaillabel svg{
+    width: 25px;
+    height: auto;
+    height: 100%;
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    left: 10px;
+    cursor: pointer;
+}
+.subscribe-btn{
+    display: block;
+    position: absolute;
+    width: 190px;
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+    color: #ffffff;
+    background: #091f40;
+    z-index: 99;
+    right: 0px;
+    top: 0px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+@media(max-width: 767px){
+    .wholepage{
+        font-size: 14px;
+    }
+    .maincontainer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h1{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .logo-a{
+        margin: 0 auto;
+    }
+    .herobanner-text{
+        text-align: center;
+    }
+    .herobanner-text > div{
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .formwrap{
+        max-width: 400px;
+        margin: 40px auto 0;
+        border-radius: 0;
+    }
+    .emaillabel input{
+        padding-right: 15px;
+    }
+    .subscribe-btn{
+        position: relative;
+        margin-top: 0;
+        width: 100%;
+    }
+
 }
